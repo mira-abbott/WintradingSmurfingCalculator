@@ -1,0 +1,98 @@
+:root {
+  --input-box-color: #749ab6;
+  --hover-color: #595959;
+  --background-hover-color: #98b2c5;
+  --background-color: #547993;
+  --wintrading-result-3: rgb(101, 215, 196);
+  --smurfing-result-5: rgb(55, 194, 69);
+  --kda-color: rgb(48, 224, 248);
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: "Kanit", sans-serif;
+}
+
+.page {
+  display: flex;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  justify-content: center;
+  padding: 0;
+}
+
+.user-1-container,
+.user-2-container {
+  padding: 9%;
+  padding-top: 0;
+}
+
+#profile-pic-1,
+#profile-pic-2 {
+  border: black 5px solid;
+}
+
+#data-user-1,
+#data-user-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.user-level {
+  display: flex;
+  justify-content: center;
+}
+
+.kda-stats-1,
+.kda-stats-2 {
+  color: var(--kda-color);
+}
+
+.kda {
+  display: flex;
+  justify-content: center;
+  font-size: 150%;
+}
+
+.kda-numbers {
+  display: flex;
+  justify-content: center;
+  font-size: 150%;
+}
+
+.results {
+  margin-top: 5%;
+}
+
+.data-results {
+  display: table;
+  text-align: center;
+}
+
+.smurfing-results {
+  display: table;
+  text-align: center;
+  justify-content: center;
+  margin: 31%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 12%;
+}
+
+.wintrading-probability {
+  color: var(--wintrading-result-3);
+}
+
+.smurfing-probability {
+  color: var(--smurfing-result-5);
+}
+
+.data-user {
+  display: flex;
+  font-size: 150%;
+  justify-content: center;
+}
+
+.user-level {
+  font-size: 125%;
+}

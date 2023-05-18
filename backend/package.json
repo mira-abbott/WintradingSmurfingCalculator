@@ -1,0 +1,24 @@
+{
+  "name": "wintrading-and-smurfing-calculator",
+  "version": "1.0.0",
+  "description": "## What defines Wintrading?",
+  "main": "data.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mira-abbott/Wintrading-and-Smurfing-Calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mira-abbott/Wintrading-and-Smurfing-Calculator/issues"
+  },
+  "homepage": "https://github.com/mira-abbott/Wintrading-and-Smurfing-Calculator#readme",
+  "dependencies": {
+    "cors-anywhere": "github:Rob--W/cors-anywhere",
+    "express": "^4.18.1"
+  }
+}

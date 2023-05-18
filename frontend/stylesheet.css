@@ -1,0 +1,106 @@
+:root {
+  --input-box-color: #749ab6;
+  --hover-color: #595959;
+  --background-hover-color: #98b2c5;
+  --background-color: #547993;
+  --wintrading-result-3: rgb(101, 215, 196);
+  --smurfing-result-5: rgb(55, 194, 69);
+  --kda-color: rgb(48, 224, 248);
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: "Kanit", sans-serif;
+}
+
+#title {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 5%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  position: relative;
+  background: 0;
+}
+
+#mini-title {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 0;
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+
+::placeholder {
+  color: white;
+  opacity: 0.25;
+}
+
+#username1:hover,
+#username2:hover {
+  border: 2px solid var(--hover-color);
+  background-color: var(--background-hover-color);
+}
+
+#username1,
+#username2 {
+  display: block;
+  margin: auto;
+  margin-bottom: 1.5%;
+  background: var(--input-box-color);
+  border: 2px solid;
+  height: 25px;
+  width: 300px;
+  font-size: 14px;
+}
+
+#submit-button {
+  display: block;
+  margin: auto;
+  background: var(--input-box-color);
+  border: 2px solid;
+  height: 50px;
+  width: 100px;
+  font-size: 16px;
+}
+
+#submit-button:hover {
+  border: 2px solid var(--hover-color);
+  color: var(--hover-color);
+  background-color: var(--background-hover-color);
+}
+
+#karma {
+  position: absolute;
+  height: 27%;
+}
+
+#jinx {
+  position: absolute;
+  right: 0%;
+  height: 27%;
+}
+
+#vi {
+  position: absolute;
+  bottom: 30%;
+  right: 0;
+  height: 30%;
+}
+
+#zoe {
+  position: absolute;
+  bottom: 30%;
+  left: 0;
+  height: 30%;
+}
+
+#banner {
+  position: fixed;
+  bottom: 0;
+  height: 23%;
+  border: 3px solid black;
+  width: 100%;
+  left: 0;
+  box-sizing: border-box;
+}
